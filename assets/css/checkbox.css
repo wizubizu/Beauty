@@ -22,7 +22,7 @@ input[type="checkbox"] + label:before {
 }
 input[type="checkbox"]:checked + label:before {
   /*background: #A66429 ;*/
-  background: #d0011b ;
+  background: #9B26AF ;
   color: white;
   content: "\2714";
   /*padding-bottom: 1.5px;*/

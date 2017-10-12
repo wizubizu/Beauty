@@ -1,4 +1,4 @@
-   /*@font-face{
+  /*@font-face{
 	font-family: 'Avenir';
 	src: url('../../Avenir/AvenirLTStd-Book.otf');
 	src: url('../../Avenir/AvenirLTStd-Light.otf');
@@ -866,6 +866,16 @@ input[type="date"]:hover ~ .calendar_index{
 
 
 /*beauty*/
+.btn-primary:hover {
+    color: #fff;
+    background-color: #4060A5 !important;
+    border-color: #4060A5 !important;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #e64522 !important;
+    border-color: #e64522 !important;
+}
 .small{
 	display:none !important;
 }

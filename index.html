@@ -16,6 +16,7 @@
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/checkbox.css">
 	
 
 
@@ -36,73 +37,184 @@
 					<div class="col-md-5"></div>
 					<div class="col-md-4 col-xs-10 col-sm-6">
             <ul>
-              <li class="mm-l-80 p-l-5 c-white"><a href="login.html">Login</a></li>
+              <li class=" mm-l-80 p-l-5 c-white" ><a class="" data-toggle="modal" href='#modal-id'>Login</a></li>
               <li class="c-white">/</li>
-              <li class="p-l-5 c-white"><a href="signup.html">Sign Up</a></li>
+              <li class=" p-l-5 c-white"><a class="" data-toggle="modal" href='#modal-id1'> Sign Up</a></li>
               <span class="p-l-5"><button type="submit" class="btn bd-4 c-white  mwidth-100p bs1 bg-but-trans p-t-5 p-b-5">FOR BUSINESS</button></span>
             <!-- <span class="p-l-5"><button type="submit" class="btn c-white bs1 bg-orange bd-orange hover p-t-5 p-b-5">NG</button> </span> -->
             </ul>
           </div>
+        </div>
+        <!-- login modal -->
+        <!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+        <div class="modal fade" id="modal-id">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header no-bd">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Please Log In,  or <a class=" f-18" data-dismiss="modal"  data-toggle="modal" href='#modal-id1' style="color: #9B26AF;">Sign Up</a></h4>
+              </div>
+              <div class="modal-body">
+                
+                <div class="row">
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <a href="#" class="btn btn-lg btn-primary btn-block c-white" style="background: #9B26AF;">Facebook</a>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <a href="#" class="btn btn-lg btn-info btn-block c-white" style="background: #9B26AF;">Google</a>
+                  </div>
+                </div>
+                <div class="login-or">
+                  <hr class="hr-or">
+                  <span class="span-or">or</span>
+                </div>
 
-				<div class="p-t-10p p-b-15p">
-					<h1 class="text-center m-b-20 t-s c-white">Find & Book<span class="border-bottom-dotted"> Health and Beauty Services</span></h1>
-					<div class="row ">
-						<div class="col-md-2"></div>
-						<div class="col-md-8">
-							<form action="" method="POST" role="form">
-								<div class="row m-auto width-100p">
-									<div class="col-md-5 col-sm-5 p-l-5 p-r-5">
-										<div class="form-group">
-											<input type="text" class="form-control p-l-20 bs1 p-t-20 p-b-20" id="" placeholder="Services ....">
-										</div>
-									</div>
-									<div class="col-md-5 col-sm-5 p-l-5 p-r-5">
-										<div class="form-group">
-											<input type="text" class="form-control p-l-20 bs1 p-t-20 p-b-20" id="" placeholder="Your city ....">
-										</div>
-									</div>
-									<div class="col-md-2 col-sm-2 p-l-5 p-r-5">
-										<button type="submit" class="bg-but-trans c-white width-114 mwidth-100p bs1 hover p-t-7 p-b-7 bd-4">Search</button>
-									</div>
-								</div>
-								
-							</form>
+                <form role="form">
+                  <div class="form-group">
+                    <label for="inputUsernameEmail">Username or email</label>
+                    <input type="text" class="form-control" id="inputUsernameEmail">
+                  </div>
+                  <div class="form-group">
+                    <a class="pull-right" href="#">Forgot password?</a>
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword">
+                  </div>
+                  <div class="checkbox pull-right">
+                    <input type="checkbox" id="check1">
+                    <label for="check1" class="p-l-0">
+                      <span class=""> Remember me</span>
+                    </label>
+                  </div>
+                  <!-- <div class="checkbox pull-right">
+                    <label>
+                      <input type="checkbox">
+                      Remember me </label>
+                  </div> -->
+                  <button type="submit" class="bd-4 bg-but-trans width-80  bs1 hover p-t-5 p-b-5 f-12" style="color: #9B26AF;">Log In</button>
+                </form>
+              </div>
+              <div class="modal-footer no-bd">
+                <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
 
-						</div>
-						<div class="col-md-2"></div>
-					</div>
-					<div class="text-center">
-						<ul class="p-l-0 mbig1">
-							<li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Hair salons</a></li>
-							<li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Barbers</a></li>
-							<li class=" btn-primary mm-t-10 m-category.htmll-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="">Nail salons</a></li>
-							<li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Skin care</a></li>
-							<li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Message</a></li>
-							<li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Make-up</a></li>
-							<li class=" btn-primary  mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Day SPA</a></li>
-							<li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Tatto artists</a></li>
-							<li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href=""><span><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></a></li>
-						</ul>
+        <!-- sign up modal -->
+        <!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+        <div class="modal fade" id="modal-id1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header no-bd">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Already have an account Please<a class=" f-18" data-dismiss="modal"  data-toggle="modal" href='#modal-id' style="color: #9B26AF;"> Sign In</a></h4>
+              </div>
+              <div class="modal-body">
+                
+                <form role="form">
+                  <div class="row">
+                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+                      <label for="inputUsernameEmail">First Name</label>
+                      <input type="text" class="form-control" id="inputUsernameEmail">
+                    </div>
+                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+                      <label for="inputUsernameEmail">Last Name</label>
+                      <input type="text" class="form-control" id="inputUsernameEmail">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputUsernameEmail">User Name</label>
+                    <input type="text" class="form-control" id="inputUsernameEmail">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword">Email Address</label>
+                    <input type="email" class="form-control" id="inputPassword">
+                  </div>
+                  <div class="row">
+                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+                      <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+                      <label for="inputPassword" class="mf-14">Confirm Password</label>
+                    <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                  </div>
+                  <!-- <div class="checkbox pull-right">
+                    <label>
+                      <input type="checkbox">
+                      Remember me </label>
+                  </div> -->
+                  <button type="submit" class="bd-4 bg-but-trans width-80  bs1 hover p-t-5 p-b-5 f-12" style="color: #9B26AF;">Sign Up</button>
+                </form>
+              </div>
+              <div class="modal-footer no-bd">
+                <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <div class="p-t-10p p-b-15p">
+          <h1 class="text-center m-b-20 t-s c-white">Find & Book<span class="border-bottom-dotted"> Health and Beauty Services</span></h1>
+          <div class="row ">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <form action="" method="POST" role="form">
+                <div class="row m-auto width-100p">
+                  <div class="col-md-5 col-sm-5 p-l-5 p-r-5">
+                    <div class="form-group">
+                      <input type="text" class="form-control p-l-20 bs1 p-t-20 p-b-20" id="" placeholder="Services ....">
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-sm-5 p-l-5 p-r-5">
+                    <div class="form-group">
+                      <input type="text" class="form-control p-l-20 bs1 p-t-20 p-b-20" id="" placeholder="Your city ....">
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 p-l-5 p-r-5">
+                    <button type="submit" class="bg-but-trans c-white width-114 mwidth-100p bs1 hover p-t-7 p-b-7 bd-4">Search</button>
+                  </div>
+                </div>
+                
+              </form>
 
-						<ul class="p-l-0 small">
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="category.html">Hair salons</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="category.html">Barbers</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Nail salons</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Skin care</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Message</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Make-up</a></li>
-							<li class="btn-primary  mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Day SPA</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Tatto artists</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Brows & Lashes</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Personal trainers</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Pet services</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Home services</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Podiatry</a></li>
-							<li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Other</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="text-center">
+            <ul class="p-l-0 mbig1">
+              <li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Hair salons</a></li>
+              <li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Barbers</a></li>
+              <li class=" btn-primary mm-t-10 m-category.htmll-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="">Nail salons</a></li>
+              <li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Skin care</a></li>
+              <li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Message</a></li>
+              <li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Make-up</a></li>
+              <li class=" btn-primary  mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Day SPA</a></li>
+              <li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4 f-14 bs1"><a href="category.html">Tatto artists</a></li>
+              <li class=" btn-primary mm-t-10 m-l-5 m-r-5 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href=""><span><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></a></li>
+            </ul>
+
+            <ul class="p-l-0 small">
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="category.html">Hair salons</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="category.html">Barbers</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Nail salons</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Skin care</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Message</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Make-up</a></li>
+              <li class="btn-primary  mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Day SPA</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Tatto artists</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Brows & Lashes</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Personal trainers</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Pet services</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Home services</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Podiatry</a></li>
+              <li class="btn-primary mm-t-10 m-l-5 m-r-5 mf-14 p-t-5 p-b-5 p-l-10 p-r-10 bd-4"><a href="">Other</a></li>
+            </ul>
+          </div>
+        </div>
 		</div>
 	</header>
 	
