@@ -408,6 +408,7 @@ select:focus {
 .width-200 {width:200px !important;}
 .width-210 {width:210px !important;}
 .width-215 {width:215px !important;}
+.width-230 {width:230px !important;}
 .width-253 {width:253px !important;}
 .width-265 {width:265px !important;}
 .width-300 {width:300px !important;}
@@ -488,6 +489,7 @@ select:focus {
 }
 .bg-trans{ background:transparent !important; background-color:transparent ; }
 .bg-white{ background:#FFFFFF !important; background-color:#FFFFFF; }
+.bg-purpleb{ background:#9B26AF !important; background-color:#9B26AF; }
 .bg-orange{ background:#FC7B08 !important; background-color:#FC7B08; }
 .bg-brown{ background:#A66429 !important; background-color:#A66429; }
 .bg-gray{ background:#EAEEF1 !important; background-color:#EAEEF1; }
@@ -502,6 +504,7 @@ select:focus {
 /****  Font Colors  ****/
 .c-red{color: #EE2824 !important;}
 .c-orange{color: #FC7B08 !important;}
+.c-purpleb{color: #9B26AF !important;}
 .c-gray{ color:#EAEEF1 !important;}
 .c-grey{color: #9b9b9b !important;}
 .c-grey1{ color:#CDCDCD !important;}
@@ -577,6 +580,7 @@ select:focus {
 .h-100 { height:100px !important; }
 .h-105 { height:105px !important; }
 .h-125 { height:125px !important; }
+.h-150 { height:150px !important; }
 .h-200 { height:200px !important; }
 .h-220 { height:220px !important; }
 .h-250 { height:250px !important; }

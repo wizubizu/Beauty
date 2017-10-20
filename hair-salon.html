@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JUDIT & IFUNAYA</title>
+	
+
+	<!-- STYLESHEETS-->
+	<link rel="stylesheet" type="text/css" href="libraries/bootstrap/css/bootstrap.min.css">
+
+	<!-- CUSTOM STYLES -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/checkbox.css">
+	
+
+
+	<!-- WEBFONT -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<!-- ICON -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="bg-purpleb" >
+			<div class="container">
+				<div class="row p-t-20">
+					<div class="col-md-3 col-xs-2 col-sm-6">
+						<p class="f-30 w-900 c-white"><a href="index.html">BEAUTY</a></p>
+					</div>
+					<div class="col-md-5"></div>
+					<div class="col-md-4 col-xs-10 col-sm-6">
+			            <ul>
+			              	<li class=" mm-l-80 p-l-5 c-white" ><a class="" data-toggle="modal" href='#modal-id'>Login</a></li>
+			              	<li class="c-white">/</li>
+			              	<li class=" p-l-5 c-white"><a class="" data-toggle="modal" href='#modal-id1'> Sign Up</a></li>
+			              	<span class="p-l-5"><button type="submit" class="btn bd-4 c-white  mwidth-100p bs1 bg-but-trans p-t-5 p-b-5">FOR BUSINESS</button></span>
+			            <!-- <span class="p-l-5"><button type="submit" class="btn c-white bs1 bg-orange bd-orange hover p-t-5 p-b-5">NG</button> </span> -->
+			            </ul>
+		        	</div>
+          		</div>
+        	</div>
+	        <!-- login modal -->
+	        <!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+	        <div class="modal fade" id="modal-id">
+	          <div class="modal-dialog">
+	            <div class="modal-content">
+	              <div class="modal-header no-bd">
+	                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                <h4 class="modal-title">Please Log In,  or <a class=" f-18 c-purpleb" data-dismiss="modal"  data-toggle="modal" href='#modal-id1' >Sign Up</a></h4>
+	              </div>
+	              <div class="modal-body">
+	                
+	                <div class="row">
+	                  <div class="col-xs-6 col-sm-6 col-md-6">
+	                    <a href="#" class="btn btn-lg btn-primary btn-block c-white bg-purpleb">Facebook</a>
+	                  </div>
+	                  <div class="col-xs-6 col-sm-6 col-md-6">
+	                    <a href="#" class="btn btn-lg btn-info btn-block c-white bg-purpleb">Google</a>
+	                  </div>
+	                </div>
+	                <div class="login-or">
+	                  <hr class="hr-or">
+	                  <span class="span-or">or</span>
+	                </div>
+
+	                <form role="form">
+	                  <div class="form-group">
+	                    <label for="inputUsernameEmail">Username or email</label>
+	                    <input type="text" class="form-control" id="inputUsernameEmail">
+	                  </div>
+	                  <div class="form-group">
+	                    <a class="pull-right" href="#">Forgot password?</a>
+	                    <label for="inputPassword">Password</label>
+	                    <input type="password" class="form-control" id="inputPassword">
+	                  </div>
+	                  <div class="checkbox pull-right">
+	                    <input type="checkbox" id="check1">
+	                    <label for="check1" class="p-l-0">
+	                      <span class=""> Remember me</span>
+	                    </label>
+	                  </div>
+	                  <!-- <div class="checkbox pull-right">
+	                    <label>
+	                      <input type="checkbox">
+	                      Remember me </label>
+	                  </div> -->
+	                  <button type="submit" class="bd-4 bg-but-trans width-80  bs1 hover p-t-5 p-b-5 f-12 c-purpleb" >Log In</button>
+	                </form>
+	              </div>
+	              <div class="modal-footer no-bd">
+	                <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                <button type="button" class="btn btn-primary">Save changes</button> -->
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+
+	        <!-- sign up modal -->
+	        <!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+	        <div class="modal fade" id="modal-id1">
+	          <div class="modal-dialog">
+	            <div class="modal-content">
+	              <div class="modal-header no-bd">
+	                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                <h4 class="modal-title">Already have an account Please<a class=" f-18 c-purpleb" data-dismiss="modal"  data-toggle="modal" href='#modal-id' > Sign In</a></h4>
+	              </div>
+	              <div class="modal-body">
+	                
+	                <form role="form">
+	                  <div class="row">
+	                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+	                      <label for="inputUsernameEmail">First Name</label>
+	                      <input type="text" class="form-control" id="inputUsernameEmail">
+	                    </div>
+	                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+	                      <label for="inputUsernameEmail">Last Name</label>
+	                      <input type="text" class="form-control" id="inputUsernameEmail">
+	                    </div>
+	                  </div>
+	                  <div class="form-group">
+	                    <label for="inputUsernameEmail">User Name</label>
+	                    <input type="text" class="form-control" id="inputUsernameEmail">
+	                  </div>
+	                  <div class="form-group">
+	                    <label for="inputPassword">Email Address</label>
+	                    <input type="email" class="form-control" id="inputPassword">
+	                  </div>
+	                  <div class="row">
+	                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+	                      <label for="inputPassword">Password</label>
+	                    <input type="password" class="form-control" id="inputPassword">
+	                    </div>
+	                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+	                      <label for="inputPassword" class="mf-14">Confirm Password</label>
+	                    <input type="password" class="form-control" id="inputPassword">
+	                    </div>
+	                  </div>
+	                  <!-- <div class="checkbox pull-right">
+	                    <label>
+	                      <input type="checkbox">
+	                      Remember me </label>
+	                  </div> -->
+	                  <button type="submit" class="bd-4 bg-but-trans width-80  bs1 hover p-t-5 p-b-5 f-12 c-purpleb" >Sign Up</button>
+	                </form>
+	              </div>
+	              <div class="modal-footer no-bd">
+	                <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                <button type="button" class="btn btn-primary">Save changes</button> -->
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	        <!-- end -->
+	        <div class="">
+	          	<h1 class="text-center m-b-20 t-s c-white">Find & Book<span class="border-bottom-dotted"> Health and Beauty Services</span></h1>
+	          	<div class="row ">
+		            <div class="col-md-2"></div>
+		            <div class="col-md-8">
+		              	<form action="" method="POST" role="form">
+			                <div class="row m-auto width-100p">
+			                  <div class="col-md-5 col-sm-5 p-l-5 p-r-5">
+			                    <div class="form-group">
+			                      <input type="text" class="form-control p-l-20 bs1 p-t-20 p-b-20" id="" placeholder="Services ....">
+			                    </div>
+			                  </div>
+			                  <div class="col-md-5 col-sm-5 p-l-5 p-r-5">
+			                    <div class="form-group">
+			                      <input type="text" class="form-control p-l-20 bs1 p-t-20 p-b-20" id="" placeholder="Your city ....">
+			                    </div>
+			                  </div>
+			                  <div class="col-md-2 col-sm-2 p-l-5 p-r-5">
+			                    <button type="submit" class="bg-but-trans c-white width-114 mwidth-100p bs1 hover p-t-7 p-b-7 bd-4">Search</button>
+			                  </div>
+			                </div>
+		                
+		              	</form>
+		              	<p class="text-center f-20 c-white m-t-5p">HAIR-SALON</p>
+		            </div>
+		            <div class="col-md-2"></div>
+	          	</div>
+	        </div>
+		</div>
+	</header>
+	
+
+	<section class="m-b-20">
+		<div class="">
+			<div class="container">
+				<div class="row m-t-20 ">
+					<div class="col-md-3 col-sm-6">
+						<div class="hvr-grow pos-rel">
+							<img src="assets/img/maxresdefault.jpg" class="width-230 h-150 mwidth-100p twidth-300" alt="">
+							<div class="texthover">
+								<p class="f-20">Merchandise</p>
+								<p class="">Yaba</p>
+								<button type="submit" class="bd-4 bg-but-trans width-80 bs1 hover p-t-5 p-b-5 f-12 c-white" data-toggle="modal" href='#modal-id2'/>Book Now</button>
+							</div>
+						</div>
+						<p class="width-230 m-t-10 ">1, Oluwo beside golden grace primary school, 112212, Abeokuta,</p>
+					</div>
+					<div class="col-md-3 col-sm-6 mm-t-10">
+						<div class="hvr-grow pos-rel">
+							<img src="assets/img/barber.jpg" class="width-230 h-150 mwidth-100p twidth-300" alt="">
+							<div class="texthover">
+								<p class="f-20">Shola</p>
+								<p>Ikeja</p>
+								<button type="submit" class="bd-4 bg-but-trans width-80 bs1 hover p-t-5 p-b-5 f-12 c-white" data-toggle="modal" href='#modal-id2'/>Book Now</button>
+							</div>
+						</div>
+						<p class="width-230 m-t-10">1, Oluwo beside golden grace primary school,kuta</p>
+					</div>
+					<div class="col-md-3 col-sm-6 mm-t-10">
+						<div class="hvr-grow pos-rel">
+							<img src="assets/img/skincare1.jpg" class="width-230 h-150 mwidth-100p twidth-300" alt="">
+							<div class="texthover">
+								<p class="f-20">Carelonee</p>
+								<p>Oshodi</p>
+								<button type="submit" class="bd-4 bg-but-trans width-80 bs1 hover p-t-5 p-b-5 f-12 c-white" data-toggle="modal" href='#modal-id2'/>Book Now</button>
+							</div>
+						</div>
+						<p class="width-230 m-t-10">1, Oluwo beside goldenuta</p>
+					</div>
+					<div class="col-md-3 col-sm-6 mm-t-10">
+						<div class="hvr-grow pos-rel">
+							<img src="assets/img/nailsalon.jpg" class="width-230 h-150 mwidth-100p twidth-300" alt="">
+							<div class="texthover">
+								<p class="f-20">Goodnai</p>
+								<p>Agege</p>
+								<button type="submit" class="bd-4 bg-but-trans width-80 bs1 hover p-t-5 p-b-5 f-12 c-white" data-toggle="modal" href='#modal-id2'/>Book Now</button>
+							</div>
+						</div>
+						<p class="width-230 m-t-10">1, Oluwo beside golden grace primary school, 112212, Abeokuta, Ogun</p>
+					</div>
+				</div>
+				<div class="row m-t-20 ">
+					<div class="col-md-3 col-sm-6">
+						<div class="hvr-grow pos-rel">
+							<img src="assets/img/maxresdefault.jpg" class="width-230 h-150 mwidth-100p twidth-300" alt="">
+							<div class="texthover">
+								<p class="f-20">Merchandise</p>
+								<p class="">Yaba</p>
+								<button type="submit" class="bd-4 bg-but-trans width-80 bs1 hover p-t-5 p-b-5 f-12 c-white" data-toggle="modal" href='#modal-id2'/>Book Now</button>
+							</div>
+						</div>
+						<p class="width-230 m-t-10 ">1, Oluwo beside golden grace primary school, 112212, Abeokuta,</p>
+					</div>
+					<div class="col-md-3 col-sm-6 mm-t-10">
+						<div class="hvr-grow pos-rel">
+							<img src="assets/img/barber.jpg" class="width-230 h-150 mwidth-100p twidth-300" alt="">
+							<div class="texthover">
+								<p class="f-20">Shola</p>
+								<p>Ikeja</p>
+								<button type="submit" class="bd-4 bg-but-trans width-80 bs1 hover p-t-5 p-b-5 f-12 c-white" data-toggle="modal" href='#modal-id2'/>Book Now</button>
+							</div>
+						</div>
+						<p class="width-230 m-t-10">1, Oluwo beside golden grace primary school,kuta</p>
+					</div>
+					<div class="col-md-3 col-sm-6 mm-t-10">
+						<div class="hvr-grow pos-rel">
+							<img src="assets/img/skincare1.jpg" class="width-230 h-150 mwidth-100p twidth-300" alt="">
+							<div class="texthover">
+								<p class="f-20">Carelonee</p>
+								<p>Oshodi</p>
+								<button type="submit" class="bd-4 bg-but-trans width-80 bs1 hover p-t-5 p-b-5 f-12 c-white" data-toggle="modal" href='#modal-id2'/>Book Now</button>
+							</div>
+						</div>
+						<p class="width-230 m-t-10">1, Oluwo beside goldenuta</p>
+					</div>
+					<div class="col-md-3 col-sm-6 mm-t-10">
+						<div class="hvr-grow pos-rel">
+							<img src="assets/img/nailsalon.jpg" class="width-230 h-150 mwidth-100p twidth-300" alt="">
+							<div class="texthover">
+								<p class="f-20">Goodnai</p>
+								<p>Agege</p>
+								<button type="submit" class="bd-4 bg-but-trans width-80 bs1 hover p-t-5 p-b-5 f-12 c-white" data-toggle="modal" href='#modal-id2'/>Book Now</button>
+							</div>
+						</div>
+						<p class="width-230 m-t-10">1, Oluwo beside golden grace primary school, 112212, Abeokuta, Ogun</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- booking modal -->
+	<!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+	<div class="modal fade" id="modal-id2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header no-bd">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title text-center">Pick a Date and Time</h4>
+				</div>
+				<div class="modal-body">
+					<form action="" method="POST" role="form">
+						<div class="form-group">
+							<div class="row">
+								<div class="col-md-6">
+									<input type="text" name="" class="form-control pos-rel" onfocus="(this.type='date')" placeholder="02/04/2017"  >
+									<!-- <span class="pos-abs t-4 l-255"><i class="f-12 fa fa-calendar" aria-hidden="true"></i></span> -->
+								</div>
+								<div class="col-md-6 mm-t-10">
+									<select name="" id="input" class="form-control" >
+										<option value="">Type of Style</option>
+										<option value="">waving</option>
+									</select>
+								</div>
+							</div>
+							
+
+							<div class="row bg-blue m-t-5p p-b-10 p-t-10">
+								<div class="col-md-4 col-sm-4">
+									<p class="text-center c-white">MORNING</p>
+									<div class="mcenter">
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80" id="btnMenu">09:00 am</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-l-5" id="btnMenu">09:15 am</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">09:30 am</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">09:45 am</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">10:00 am</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">10:15 am</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">10:30 am</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">10:45 am</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">11:00 am</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">11:15 am</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">11:30 am</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">11:45 am</button><br>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<p class="text-center c-white mm-t-10">AFTERNOON</p>
+									<div class="mcenter">
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80">12:00 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-l-5">12:15 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">12:30 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">12:45 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">01:00 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">01:15 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">01:30 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">01:45 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">02:00 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">02:15 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">02:30 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">02:45 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">03:00 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">03:15 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">03:30 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">03:45 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">04:00 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">04:15 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">04:30 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">04:45 pm</button><br>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<p class="text-center c-white mm-t-10">EVENING</p>
+									<div class="mcenter">
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80">05:00 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-l-5">05:15 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">05:30 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">05:45 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">06:00 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">06:15 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">06:30 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">06:45 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">07:00 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">07:15 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">07:30 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">07:45 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">08:00 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">08:15 pm</button><br>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10">08:30 pm</button>
+										<button type="button" class="btn c-white bd-4 bg-but-trans p-t-5 p-b-5 width-80 m-t-10 m-l-5">08:45 pm</button><br>
+									</div>
+								</div>
+							</div>
+
+							<div class="row m-t-5p">
+								<div class="col-md-9 col-sm-9">
+									<div class="row">
+										<div class="col-md-2 col-xs-3 col-sm-2">
+											<img src="assets/img/girl3clear.png" class="img-circle width-50 h-50">
+										</div>
+										<div class="col-md-10 col-xs-9 col-sm-9">
+											<p>Company name</p>
+											<p>Name</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3">
+									<p>Price <span>₦300.00</span></p>
+									<p>Time</p>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer no-bd">
+					<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <!-- footer -->
+  <footer class="bg-purpleb p-t-5p p-b-5p">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-4">
+        <p class="c-white"><a href="">About Us</a></p>
+        <p class="c-white"><a href="">Contact Us</a></p>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
+    </div>
+    </div>
+  </footer>
+
+
+
+	<script type="text/javascript" src="libraries/bootstrap/js/jquery-3.1.1.min.js"></script>
+
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+ </body>
+	<!-- modal button active change -->
+	<script type="text/javascript">
+		$('button[type="button"]').click(function(){
+	    $('button[type="button"].red').removeClass('red')
+	        $(this).addClass('red');
+		});
+	</script>
+</html>
