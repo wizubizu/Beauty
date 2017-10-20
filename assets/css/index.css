@@ -1397,6 +1397,7 @@ figure:hover+span {
   .mbig{
     display:none !important;
   }
+  .tm-t-10{margin-top:10px !important;}
   .twidth-300 {width:300px !important;}
   .mm-l-0 {margin-left:0px !important;}
   .thoverlay {
@@ -1433,6 +1434,19 @@ figure:hover+span {
     background-color: rgba(51,51,51, 0.40);
 
    } 
+
+   .texthover1{
+    position: absolute;
+    bottom: 0px;
+    /* left: 80px; */
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 150px;
+    padding-top: 10%;
+    background-color: rgba(51,51,51, 0.40);
+
+   }
 }
 @media screen and (max-width: 560px){
 
@@ -1621,6 +1635,19 @@ figure:hover+span {
     background-color: rgba(51,51,51, 0.40);
 
    } 
+
+   .texthover1{
+    position: absolute;
+    bottom: 0px;
+    /* left: 80px; */
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 150px;
+    padding-top: 10%;
+    background-color: rgba(51,51,51, 0.40);
+
+   }
 
 
 
